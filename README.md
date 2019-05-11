@@ -7,8 +7,7 @@ It inculdes:
    Using machine learning skill and approperate statistic model to predicte the dataset, and compare the result with orignal data.
    This prediction is written by R.
 
-2. The statistic basic
+2. The statistic basic (coming soon)
    Including the basic knowledge that gets involved in the data science field.
    
-
-3. 
+   
