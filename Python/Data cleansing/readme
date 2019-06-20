@@ -1,2 +1,9 @@
+A Python script that Audit and cleanse the dataset 'dataset1_with_error.csv',
+then output a clean data set 'dataset1_solution.csv'
 
-Example will be here soon!
+
+Input:
+'dataset1_with_error.csv'
+
+Output:
+'dataset1_solution.csv'
