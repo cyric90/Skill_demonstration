@@ -14,3 +14,10 @@ It inculdes the cases that writen in R and Python that able to handle practical 
 - Python
   1. Data preprocessing: Python code to preprocess a set of meeting transcripts and convert them into numerical representations
   suitable for input into topic segmentation algorithms.
+  
+  2. Data Cleasing: Python script to audit and clean a data set with common problems like:
+    - Typos and spelling mistakes 
+    - Irregularities
+    - Violations of the Integrity constraint
+    - Duplications
+    - Missing values
