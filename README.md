@@ -1,10 +1,11 @@
 # Skill_demonstration
 
-This is a skill demonstration that illustrates some key skill sets for a data scientist
-It inculdes the cases that writen in R and Python that able to handle practical questions and tasks.
+This is a skill demonstration that illustrates some key skill-sets for a data scientist.
+
+It includes several cases written in R and Python that able to handle practical questions and tasks.
 
 - R
-  1. The data prediction Using machine learning skill and appropriate statistic model to predict the dataset, and compare the result with   original data. 
+  1. The data prediction using machine learning and appropriate statistic model to predict the trend of the data set, and compare the result with original data. 
 
   2. The statistic basic, including the basic knowledge that gets involved in the data science field.
      - Hypothesis testing
@@ -12,10 +13,10 @@ It inculdes the cases that writen in R and Python that able to handle practical 
      
      
 - Python
-  1. Data preprocessing: Python code to preprocess a set of meeting transcripts and convert them into numerical representations
+  1. Data preprocessing: Python script to preprocess a set of meeting transcripts and convert them into numerical representations
   suitable for input into topic segmentation algorithms.
   
-  2. Data Cleasing: Python script to audit and clean a data set with common problems like:
+  2. Data Cleansing: Python script to audit and clean a data set with common problems, such as:
     - Typos and spelling mistakes 
     - Irregularities
     - Violations of the Integrity constraint
