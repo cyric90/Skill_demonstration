@@ -24,13 +24,14 @@ The programming language and tools we will use are:
 - Apache Spark
 
 
-Task A: Created MongoDB Database
+>* Task A: Created MongoDB Database
 
 Please see **Database_Creation.ipynb**
 
 
 
-Task B: processing Data Streams:
+>* Task B: processing Data Streams:
+
 In this task, we will implement multiple Apache Kafka producers to simulate the real-time streaming of the data which will be processed by Apache Spark Streaming client and then inserted into MongoDB. 
 The overall system architecture is shown in the figure below. 
 
@@ -39,7 +40,7 @@ The overall system architecture is shown in the figure below. 
 Event/Data Streaming         |    | Data Stream Processing | Data and Result Storage| Data and Result Distribution     |
 ___________                  |    |                        |                        |                                  |
 Producer 1 |-------------|   |    |                        |                        |                                  |
------------              |   |    |                        |                        |                                  |                                          |   |    |                        |                        |                                  |
+-----------              |   |    |                        |                        |                                  |                |   |    |                        |                        |                                  |
 ___________             _______   |        _______         |      ___________       |                                  |
 Producer 2 |---------->| Kafka |--|-------| Spark |--------|------| Mongo DB |------|-------------->Visualisation/<----|     
 -----------            ---------  |       ---------        |      ------------      |                 Front End
