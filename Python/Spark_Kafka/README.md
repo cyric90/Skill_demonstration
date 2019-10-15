@@ -12,12 +12,12 @@ We will use part of the data from this campaign to:
 The data sheets we will use are:
 - hotspot_historic.csv  
 - climate_historic.csv 
-**These two for database creating
+  **These two for database creating**
 
 - hotspot_AQUA_streaming.csv 
 - hotspot_TERRA_streaming.csv 
 - climate_streaming.csv
-**These three for data streaming
+   **These three for data streaming**
 
 The programming language and tools we will use are:
 - Python  
