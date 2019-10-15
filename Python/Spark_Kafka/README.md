@@ -1,18 +1,29 @@
-# Kafka-Streaming-Apache-Mongo-DB-Demo
+# Kafka-Spark-MongoDB
 
 Background :
-  StopFire is a campaign started by Monash University to predict and stop the fire in Victorian cities. They have employed sensors in different cities of Victoria and have 
-  collected a large amount of data. The data is so big that their techniques have failed to provide the results on time to predict fire. 
+  StopFire is a campaign to predict and stop the fire in Victorian cities. They have employed sensors in different cities of Victoria and have collected a large amount of data.
   They have hired us as the data analyst to migrate their data to the NoSQL database (MongoDB). They want us to analyse their data and provide them with results.
   In addition, they want us to build an application, a complete setup from streaming to storing and analyzing the data for them using Apache Kafka,  Apache Spark Streaming and MongoDB.  
 
-Five datasets:  
+We will use part of the data from this campaign to:
+1. Design a NoSQL database and store the data.
+2. Design an application for streaming and processing the data
+
+The data sheets we will use are:
 ○ hotspot_historic.csv  
 ○ climate_historic.csv 
+**These two for database creating
+
 ○ hotspot_AQUA_streaming.csv 
 ○ hotspot_TERRA_streaming.csv 
-○ climate_streaming.csv  
+○ climate_streaming.csv
+**These three for data streaming
 
+The programming language and tools we will use are:
+○ Python  
+○ MongoDB
+○ Apache Kafka
+○ Apache Spark
 
 Task A: Created Mongo DB Reference Data model
 
