@@ -27,29 +27,12 @@ The programming language and tools we will use are:
 
 Task A: Created Mongo DB Reference Data model
 
-I had to use 2 data set to decide on to the data model, which are: 
->* hotspot_historic.csv (2668 rows)
->* climate_historic.csv (366 rows)
-
-After Exploring through the data set it can be noticed that: 
->- Dates are unique in climate data. 
->- Datasets can be mapped through date column in both the datasets. 
->- Cardinality of the dataset is 1 to N.
->- Datasets cardinality justify either of "one to few" or "one to many" relation where on an average one row of climate data gets mapped to 10 rows of hotspot data (in this case there are ~100 rows with no data mapped to historic which further increase the count of mapping).
->- If the relation is "one to few" we use Embedded nodel and if the relationship is "one to many" we prefer reference model (Less than 1000),
-
-It is a little ambigous situation where both the model will work fine. For Instance, If Embeded model is used perfomance of the query will be better as it will not have to query separate collection. But in this instance the primary focus of the task is to investigate on fire incidents and there might be a possibility that we might need to query the hotspot data which might make it  hard to access the details as stand-alone entities.
 
 Therefore, in this case, we have decided to use the **reference model**. It will also ensure that searching and fetching of independent entities can be done easily and quickly. To make the referencing simple we will introduce an integer object id which will act as reference to the _id of the hotspot data. 
 
 We have also incorporated **two way referencing** to reference from hotspot data to climate data to cater to the possible need of identifying a fire to particular sensor.
 
 To enhance the perfomance of our model we have also incorporated **Denormalization** of "surface_temperature_celcius" and "confidence" from historic data to climate data under the assumption that it is analysis task and there will high read to write ratio and no Update will be required to the dataset.(which is one of the major disadvantage of denormalization). 
-
-
-
-
-```
 
 
 
@@ -70,7 +53,6 @@ Producer 2 |---------->| Kafka |--|-------| Spark |--------|------| Mongo DB |--
 ___________              |        |                        |                        |
 Producer 3 |-------------|        |                        |                        |
 -----------                       |                        |                        |
-
 ```
 
 1. Simulating real-time data using Apache Kafka Producers.   
