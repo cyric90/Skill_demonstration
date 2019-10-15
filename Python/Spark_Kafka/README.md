@@ -40,7 +40,7 @@ The overall system architecture is shown in the figure below. 
 Event/Data Streaming         |    | Data Stream Processing | Data and Result Storage| Data and Result Distribution     |
 ___________                  |    |                        |                        |                                  |
 Producer 1 |-------------|   |    |                        |                        |                                  |
------------              |   |    |                        |                        |                                  |                |   |    |                        |                        |                                  |
+-----------              |   |    |                        |                        |                                  |           
 ___________             _______   |        _______         |      ___________       |                                  |
 Producer 2 |---------->| Kafka |--|-------| Spark |--------|------| Mongo DB |------|-------------->Visualisation/<----|     
 -----------            ---------  |       ---------        |      ------------      |                 Front End
