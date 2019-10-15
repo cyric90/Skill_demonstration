@@ -17,11 +17,11 @@ It includes several cases written in R and Python that able to handle practical 
   suitable for input into topic segmentation algorithms.
   
   2. Data Cleansing: Python script to audit and clean a data set with common problems, such as:
-    - Typos and spelling mistakes 
-    - Irregularities
-    - Violations of the Integrity constraint
-    - Duplications
-    - Missing values
+      - Typos and spelling mistakes 
+      - Irregularities
+      - Violations of the Integrity constraint
+      - Duplications
+      - Missing values
     
     
   3. Data Streaming: Using Kafka, Spark and MongoDB to process, store and visualise the streaming data.
