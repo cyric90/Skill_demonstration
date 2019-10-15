@@ -22,3 +22,6 @@ It includes several cases written in R and Python that able to handle practical 
     - Violations of the Integrity constraint
     - Duplications
     - Missing values
+    
+    
+  3. Data Streaming: Using Kafka, Spark and MongoDB to process, store and visualise the streaming data.
