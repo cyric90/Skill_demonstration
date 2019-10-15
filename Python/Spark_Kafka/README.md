@@ -50,9 +50,13 @@ Producer 3 |-------------|        |                        |                    
 
 ```
 
-- Kafka_Producer.ipynb for three producers
-- Spark_Streaming_Application.ipynb for Data stream processing
-- Data_Visualisation for visualisation
+- **Kafka_Producer.ipynb** for three producers
+- **Spark_Streaming_Application.ipynb** for Data stream processing
+- **Data_Visualisation.ipynb** for visualisation
+
+
+
+**Note: If Github fails to load the notebook, please download it and use Jupyter Notebook to run the file.**
  
  
  
