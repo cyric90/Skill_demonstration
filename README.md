@@ -25,3 +25,6 @@ It includes several cases written in R and Python that able to handle practical 
     
     
   3. Data Streaming: Using Kafka, Spark and MongoDB to process, store and visualise the streaming data.
+  
+  
+ ***Note: if Github does not read the .ipynb file, please open http://nbviewer.jupyter.org/ and copy and paste the URL from Github.***
