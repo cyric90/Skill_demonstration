@@ -22,7 +22,7 @@ It includes scases written in Python that able to handle practical questions and
   
 | Project Nmae  | Description |
 | ------------- | ------------- |
-| [1. Data preprocessing] (https://github.com/cyric90/Skill_demonstration/tree/master/Python/Data%20cleansing)  | Python script to preprocess a set of meeting transcripts and convert them into numerical representations suitable for input into topic segmentation algorithms.  |
+| [1. Data preprocessing](https://github.com/cyric90/Skill_demonstration/tree/master/Python/Data%20cleansing)  | Python script to preprocess a set of meeting transcripts and convert them into numerical representations suitable for input into topic segmentation algorithms.  |
 | 2. Data Cleansing  | Python script to audit and clean a data set with common problems, such as: 1.Typos and spelling mistake. 2.Irregularities 3.Violations of the Integrity constraint. 4.Duplications. 5.Missing values |
 | 3. Data Streaming  | Using Kafka, Spark and MongoDB to process, store and visualise the streaming data.  |
 | 4. Link Prediction | Prediciting pairwise relationship in an academic co-authorship graph. In short, using existing graph characteristics (degree, distance) to predict furture linkage when given some new authors' information.  |
